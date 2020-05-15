@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kugar.Core.Log.ExceptionlessFactory", "Kugar.Core.Log.ExceptionlessFactory\Kugar.Core.Log.ExceptionlessFactory.csproj", "{FEF380AE-65BC-447B-87FF-4CD2A24B672A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kugar.Core.Log.ExceptionlessFactory.NetCore", "Kugar.Core.Log.ExceptionlessFactory.NetCore\Kugar.Core.Log.ExceptionlessFactory.NetCore.csproj", "{3FF1A09E-5005-46E5-8141-496E860398CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF380AE-65BC-447B-87FF-4CD2A24B672A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF380AE-65BC-447B-87FF-4CD2A24B672A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF380AE-65BC-447B-87FF-4CD2A24B672A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF380AE-65BC-447B-87FF-4CD2A24B672A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF1A09E-5005-46E5-8141-496E860398CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF1A09E-5005-46E5-8141-496E860398CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF1A09E-5005-46E5-8141-496E860398CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF1A09E-5005-46E5-8141-496E860398CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA05BD79-2435-4E3D-AAF2-EFCFCD786ABD}
+	EndGlobalSection
+EndGlobal

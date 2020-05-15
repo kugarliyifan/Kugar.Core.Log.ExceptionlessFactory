@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp3.1;</TargetFrameworks>
+    <Authors>Kugar</Authors>
+    <Company>Kugar</Company>
+    <Product>Kugar.Core.Log</Product>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Kugar.Core.Log.ExceptionlessFactory\ExceptionlessFactory.cs" Link="ExceptionlessFactory.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Exceptionless" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kugar.Core.NetCore" Version="1.2.104" />
+  </ItemGroup>
+
+</Project>
